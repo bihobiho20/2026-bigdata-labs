@@ -1,0 +1,158 @@
+{
+  "runs": [
+    {
+      "n": 125,
+      "actual_n": 125,
+      "brute_s": 0.03210650000255555,
+      "brute_calls": 7750,
+      "brute_peak_bytes": 6576,
+      "lsh_s": 0.6608531000092626,
+      "lsh_calls": 0,
+      "lsh_peak_bytes": 1048372
+    },
+    {
+      "n": 250,
+      "actual_n": 250,
+      "brute_s": 0.12960119999479502,
+      "brute_calls": 31125,
+      "brute_peak_bytes": 7304,
+      "lsh_s": 0.8829862999264151,
+      "lsh_calls": 1,
+      "lsh_peak_bytes": 1691720
+    },
+    {
+      "n": 500,
+      "actual_n": 500,
+      "brute_s": 0.5291748000308871,
+      "brute_calls": 124750,
+      "brute_peak_bytes": 7816,
+      "lsh_s": 1.2741539999842644,
+      "lsh_calls": 8,
+      "lsh_peak_bytes": 2778564
+    },
+    {
+      "n": 1000,
+      "actual_n": 1000,
+      "brute_s": 2.1598751000128686,
+      "brute_calls": 499500,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 2.0439104000106454,
+      "lsh_calls": 30,
+      "lsh_peak_bytes": 4743672
+    },
+    {
+      "n": 2000,
+      "actual_n": 2000,
+      "brute_s": 8.939361899974756,
+      "brute_calls": 1999000,
+      "brute_peak_bytes": 18184,
+      "lsh_s": 3.5288148000836372,
+      "lsh_calls": 110,
+      "lsh_peak_bytes": 8454608
+    },
+    {
+      "n": 4000,
+      "actual_n": 4000,
+      "brute_s": 35.2294980000006,
+      "brute_calls": 7998000,
+      "brute_peak_bytes": 19144,
+      "lsh_s": 6.347855499945581,
+      "lsh_calls": 160,
+      "lsh_peak_bytes": 15651036
+    },
+    {
+      "n": 750,
+      "actual_n": 750,
+      "brute_s": 1.2071031000232324,
+      "brute_calls": 280875,
+      "brute_peak_bytes": 7816,
+      "lsh_s": 1.5208208000985906,
+      "lsh_calls": 16,
+      "lsh_peak_bytes": 3827960
+    },
+    {
+      "n": 875,
+      "actual_n": 875,
+      "brute_s": 1.586648799944669,
+      "brute_calls": 382375,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 1.7233999000163749,
+      "lsh_calls": 22,
+      "lsh_peak_bytes": 4243528
+    },
+    {
+      "n": 8000,
+      "actual_n": 8000,
+      "brute_s": 137.8749470000621,
+      "brute_calls": 31996000,
+      "brute_peak_bytes": 19144,
+      "lsh_s": 12.23846969997976,
+      "lsh_calls": 322,
+      "lsh_peak_bytes": 30129856
+    },
+    {
+      "n": 250,
+      "actual_n": 250,
+      "brute_s": 0.13810900005046278,
+      "brute_calls": 31125,
+      "brute_peak_bytes": 7304,
+      "lsh_s": 0.8728637000313029,
+      "lsh_calls": 1,
+      "lsh_peak_bytes": 1702304
+    },
+    {
+      "n": 500,
+      "actual_n": 500,
+      "brute_s": 0.5471795999910682,
+      "brute_calls": 124750,
+      "brute_peak_bytes": 7816,
+      "lsh_s": 1.1775393000571057,
+      "lsh_calls": 8,
+      "lsh_peak_bytes": 2778564
+    },
+    {
+      "n": 1000,
+      "actual_n": 1000,
+      "brute_s": 2.0729018999263644,
+      "brute_calls": 499500,
+      "brute_peak_bytes": 9352,
+      "lsh_s": 1.8500768999801949,
+      "lsh_calls": 30,
+      "lsh_peak_bytes": 4743672
+    },
+    {
+      "n": 2000,
+      "actual_n": 2000,
+      "brute_s": 8.445214600069448,
+      "brute_calls": 1999000,
+      "brute_peak_bytes": 18184,
+      "lsh_s": 3.349696999997832,
+      "lsh_calls": 110,
+      "lsh_peak_bytes": 8454608
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 97 Stepping 3, AuthenticAMD",
+    "python": "3.14.7",
+    "cpu_model": "AMD Ryzen 5 7500X3D 6-Core Processor",
+    "ram_bytes": 33457094656,
+    "background_apps": [
+      "VS Code",
+      "Firefox",
+      "Windows Defender",
+      "Explorer"
+    ],
+    "measured_date": "2026-10-04"
+  },
+  "measurement": {
+    "threshold": 0.6,
+    "hashes": 120,
+    "bands": 30,
+    "seed": 246,
+    "extension_seed": 247,
+    "memory_scope": "tracemalloc peak during find; excludes input document generation and process RSS",
+    "unpleasant_n": 8000,
+    "limiting_factor": "time"
+  }
+}

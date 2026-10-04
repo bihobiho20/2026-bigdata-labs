@@ -1,0 +1,4 @@
+2120 documents, threshold 0.6, 121 true pairs
+  baseline     comparisons  2,246,140   recall 100.0%   precision 100.0%     7.52s
+  yours        comparisons        127   recall 100.0%   precision 100.0%     1.63s
+Comparisons avoided: 99.9943%
